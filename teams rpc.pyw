@@ -41,7 +41,7 @@ timetable.append(["Ten Minute Break", "English Literature", "Ten Minute Break", 
 timetable.append([])
 
 
-starttimes = [(8,0),(8,10),(8,40),(8,50),(9,20),(9,30),(10,00),(10,10),(10,40),(10,50),(11,20),(11,30),(12,0),(12,20),(12,30),(13,0),(13,10),(13,40)]
+starttimes = [(8,0),(8,10),(8,40),(8,50),(9,20),(9,30),(10,00),(10,10),(10,40),(10,50),(11,20),(11,30),(12,0),(12,20),(12,50),(13,0),(13,10),(13,40)]
 
 def time():
     tz = pytz.timezone('Asia/Calcutta')
@@ -90,6 +90,7 @@ while True:
         timemodule.sleep(60)
     else:
         periodn = timetable[day][period]
+        print(periodn)
 
         if periodn == None:
             RPC.clear(os.getpid())
@@ -107,7 +108,8 @@ while True:
             end = end.timestamp()
             RPC.update(details=f"Class: {timetable[day][period]}", state="Devloped By Thulium#0069",
                        large_image=image, large_text=timetable[day][period], small_image="teams", small_text="Microsoft Teams", end=end, buttons=[{"label": "Download this rich presence", "url": "https://github.com/Thulium-Arun/Teams-Discord-Rpc"}])
-            timemodule.sleep(60)
+        
+        timemodule.sleep(60)
 
 
 
