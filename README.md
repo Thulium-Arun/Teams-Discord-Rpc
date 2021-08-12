@@ -1,4 +1,5 @@
 # Teams Discord Rich Presence
+![image](https://user-images.githubusercontent.com/73468768/129151462-7a3c57c8-338d-46d5-a8f3-5c140b7fc492.png)
 
 # you can open the file and do a few changes to your timetable so it updates accordingly.
 
@@ -18,3 +19,10 @@ You can install python from https://www.python.org/downloads/ and to install the
 pip install pypresence
 
 pip install pytz
+
+
+# While editing the file, look at these images, these are the elements you can use.
+![image](https://user-images.githubusercontent.com/73468768/129151356-c4699134-7db1-4607-b190-9289ad3e8905.png)
+
+# If you have any other questions on how to edit/modify this Presence, DM me on discord:
+# Thulium#0069
