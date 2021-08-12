@@ -20,9 +20,9 @@
 
 You can install python from https://www.python.org/downloads/ and to install the modules open your command line and type these commands:
 
-pip install pypresence
+`pip install pypresence`
 
-pip install pytz
+`pip install pytz`
 
 
 # While editing the file, look at these images, these are the elements you can use.
