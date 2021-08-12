@@ -106,7 +106,7 @@ while True:
             end = now + timedelta(seconds = end)
             end = end.timestamp()
             RPC.update(details=f"Class: {timetable[day][period]}", state="Devloped By Thulium#0069",
-                        large_image=image, large_text = timetable[day][period],small_image="teams", small_text="Microsoft Teams", end=end)
+                       large_image=image, large_text=timetable[day][period], small_image="teams", small_text="Microsoft Teams", end=end, buttons=[{"label": "Download this rich presence", "url": "https://github.com/NURA100NURA100/Teams-Discord-Rpc"}])
             timemodule.sleep(60)
 
 
