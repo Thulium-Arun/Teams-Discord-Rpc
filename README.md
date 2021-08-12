@@ -18,7 +18,9 @@
 
 # pytz
 
-You can install python from https://www.python.org/downloads/ and to install the modules open your command line and type these commands:
+# You can install python from https://www.python.org/downloads/. 
+
+# To install the modules open your command line and type these commands:(You will first need to install pip. This comes with python with the default settings..)
 
 `pip install pypresence`
 
